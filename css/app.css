@@ -171,6 +171,34 @@ PORTFOLIO
   margin-left: 40px;
 }
 
+.portfolio-button {
+  background-color: rgb(236,240,241);
+  margin: 20px 0 0 50px;
+}
+
+.portfolio-a-in-modal, .portfolio-li {
+  color: rgb(44,62,80);
+}
+
+.portfolio-button:hover {
+  background-color: rgba(236,240,241,.8);
+}
+
+.portfolio-a-in-modal:hover {
+  color: rgb(44,62,80);
+}
+
+.portfolio-p-in-modal {
+  color: rgb(44,62,80);
+  padding: 20px 0 0 0;
+  margin: 0;
+  font-size: 1em;
+}
+
+#Gardenhood-Modal, #Mirepoix-Modal, #gitFit-Modal, #Simon-Modal {
+  background-color: rgb(236,240,241);
+}
+
 /***************************
 FOOTER
 ***************************/
