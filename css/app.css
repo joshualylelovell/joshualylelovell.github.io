@@ -1,0 +1,162 @@
+/***************************
+GENERAL
+***************************/
+body {
+  background-color: rgb(44,62,80);
+  color: rgb(236,240,241);
+}
+
+/***************************
+NAVBAR
+***************************/
+
+#nav-img {
+  height: 75px;
+  width: 75px;
+  margin: 0 20px;
+}
+
+.menu > li > a {
+  display: inline-block;
+  line-height: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: rgb(44,62,80);
+}
+
+.menu > li > a:hover {
+  color: rgb(236,240,241);
+  background-color: rgb(44,62,80);
+}
+
+.top-bar {
+  padding: 0 8px;
+  height: 60px;
+}
+
+/***************************
+MAIN
+***************************/
+.standard-row {
+  margin-top: 75px;
+}
+
+h1 {
+  font-size: 6em;
+  margin: 0 5% 0 15%;
+  padding: 0;
+}
+
+h3 {
+  font-size: 3em;
+  margin: 0% 5% 0% 15%;
+  padding: 0;
+}
+
+h4 {
+  font-size: 2.25em;
+  margin: 0% 5% 0% 15%;
+  padding: 0;
+}
+
+h5 {
+  font-size: 2em;
+  margin: 0% 5% 0% 15%;
+  padding: 0;
+}
+
+h6 {
+  font-size: 2em;
+  margin: 0% 5% 0% 15%;
+  padding: 0;
+}
+
+#headshot {
+  margin: 25px 5% 0% 0%;
+  padding: 0;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 1.25em;
+  padding-top: 20px;
+  padding-left: 75px;
+}
+
+#about-row {
+  margin-top: 0;
+}
+
+#about-p {
+  font-size: 1.5em;
+  margin: 0% 5% 0% 15%;
+  padding: 0;
+  content: justify;
+  text-align: justify;
+}
+
+#about-tatu {
+  text-align: justify;
+}
+
+#tatu-container {
+  display: flex;
+}
+
+#tatu {
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.fi-social-github, .fi-social-linkedin, .fi-social-instagram {
+ font-size: 3em;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.social-media-a {
+  color: rgb(236,240,241);
+}
+
+#portfolio-h1 {
+  margin: 0px 0px 0px 20px;
+}
+
+#portfolio-wrapper {
+  margin: 0 20px;
+}
+
+.portfolio-a {
+  color: rgb(44,62,80);
+  font-size: 1.5em;
+}
+
+.portfolio-a-in-p {
+  color: rgb(44,62,80);
+}
+
+.portfolio-img {
+  max-height: 250px;
+  height: 100%;
+}
+
+.portfolio-p {
+  font-size: 1em;
+  margin-bottom: 0;
+  padding-top: 0;
+  text-align: justify;
+}
+
+/***************************
+FOOTER
+***************************/
+
+.footer-p {
+  font-size: .75em;
+  padding: 0;
+  margin: 0 0 0 15%;;
+}
+
+footer {
+  margin-bottom: 20px;
+}
